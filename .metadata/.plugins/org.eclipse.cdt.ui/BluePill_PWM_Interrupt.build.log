@@ -1,0 +1,10 @@
+10:33:45 **** Incremental Build of configuration Debug for project BluePill_PWM_Interrupt ****
+make -j4 all 
+arm-none-eabi-size   BluePill_PWM_Interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8096	     20	   1652	   9768	   2628	BluePill_PWM_Interrupt.elf
+Finished building: default.size.stdout
+ 
+
+10:33:46 Build Finished. 0 errors, 0 warnings. (took 534ms)
+
