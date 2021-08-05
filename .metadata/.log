@@ -1996,3 +1996,39 @@ java.io.FileNotFoundException: https://download.eclipse.org/technology/epp/packa
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
 	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SESSION 2021-08-03 13:24:16.817 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-08-03 13:24:45.175
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-08-03 13:24:45.473
+!MESSAGE Log4j initialized with config file /home/paulo/STM32CubeIDE/workspace_1.7.0/STM32_BluePill_Cube_IDE/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-08-03 13:25:07.347
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-08-03 13:35:44.505
+!MESSAGE Indexed 'BluePill_Sleep_Mode' (19 sources, 78 headers) in 15 sec: 3,658 declarations; 13,171 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-08-03 13:59:40.265
+!MESSAGE Indexed 'BluePill_Sleep_Mode' (19 sources, 78 headers) in 5.55 sec: 3,671 declarations; 13,362 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+!SESSION 2021-08-05 11:25:46.514 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-08-05 11:27:03.512
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-08-05 11:27:03.793
+!MESSAGE Log4j initialized with config file /home/paulo/STM32CubeIDE/workspace_1.7.0/STM32_BluePill_Cube_IDE/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-08-05 11:27:24.899
+!MESSAGE Started RMI Server, listening on port 41337
