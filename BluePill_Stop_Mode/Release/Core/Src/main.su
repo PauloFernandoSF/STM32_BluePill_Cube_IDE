@@ -1,0 +1,6 @@
+main.c:45:6:HAL_GPIO_EXIT1_Callback	0	static
+main.c:80:6:SystemClock_Config	96	static,ignoring_inline_asm
+main.c:49:5:main	48	static,ignoring_inline_asm
+main.c:172:6:Alarm_Update	24	static
+main.c:38:6:HAL_RTC_AlarmAEventCallback	8	static
+main.c:240:6:Error_Handler	0	static,ignoring_inline_asm
