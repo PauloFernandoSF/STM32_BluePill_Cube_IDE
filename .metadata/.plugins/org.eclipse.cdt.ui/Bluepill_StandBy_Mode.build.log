@@ -1,0 +1,20 @@
+11:37:14 **** Incremental Build of configuration Release for project Bluepill_StandBy_Mode ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Bluepill_StandBy_Mode.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/paulo/STM32CubeIDE/workspace_1.7.0/STM32_BluePill_Cube_IDE/Bluepill_StandBy_Mode/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Bluepill_StandBy_Mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Bluepill_StandBy_Mode.elf
+ 
+arm-none-eabi-size   Bluepill_StandBy_Mode.elf 
+arm-none-eabi-objdump -h -S  Bluepill_StandBy_Mode.elf  > "Bluepill_StandBy_Mode.list"
+arm-none-eabi-objcopy  -O binary  Bluepill_StandBy_Mode.elf  "Bluepill_StandBy_Mode.bin"
+   text	   data	    bss	    dec	    hex	filename
+   3164	     20	   1572	   4756	   1294	Bluepill_StandBy_Mode.elf
+Finished building: default.size.stdout
+ 
+Finished building: Bluepill_StandBy_Mode.bin
+ 
+Finished building: Bluepill_StandBy_Mode.list
+ 
+
+11:37:18 Build Finished. 0 errors, 0 warnings. (took 3s.822ms)
+

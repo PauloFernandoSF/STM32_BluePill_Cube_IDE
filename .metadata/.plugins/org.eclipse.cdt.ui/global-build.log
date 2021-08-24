@@ -1,17 +1,17 @@
-13:11:42 **** Incremental Build of configuration Release for project BluePill_Stop_Mode ****
+11:37:14 **** Incremental Build of configuration Release for project Bluepill_StandBy_Mode ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "BluePill_Stop_Mode.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/paulo/STM32CubeIDE/workspace_1.7.0/STM32_BluePill_Cube_IDE/BluePill_Stop_Mode/STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BluePill_Stop_Mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: BluePill_Stop_Mode.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Bluepill_StandBy_Mode.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/paulo/STM32CubeIDE/workspace_1.7.0/STM32_BluePill_Cube_IDE/Bluepill_StandBy_Mode/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Bluepill_StandBy_Mode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Bluepill_StandBy_Mode.elf
  
-arm-none-eabi-size   BluePill_Stop_Mode.elf 
-arm-none-eabi-objdump -h -S  BluePill_Stop_Mode.elf  > "BluePill_Stop_Mode.list"
-arm-none-eabi-objcopy  -O binary  BluePill_Stop_Mode.elf  "BluePill_Stop_Mode.bin"
-Finished building: BluePill_Stop_Mode.bin
+arm-none-eabi-size   Bluepill_StandBy_Mode.elf 
+arm-none-eabi-objdump -h -S  Bluepill_StandBy_Mode.elf  > "Bluepill_StandBy_Mode.list"
+arm-none-eabi-objcopy  -O binary  Bluepill_StandBy_Mode.elf  "Bluepill_StandBy_Mode.bin"
    text	   data	    bss	    dec	    hex	filename
-   5888	     20	   1596	   7504	   1d50	BluePill_Stop_Mode.elf
+   3164	     20	   1572	   4756	   1294	Bluepill_StandBy_Mode.elf
 Finished building: default.size.stdout
  
+Finished building: Bluepill_StandBy_Mode.bin
  
-Finished building: BluePill_Stop_Mode.list
+Finished building: Bluepill_StandBy_Mode.list
  
